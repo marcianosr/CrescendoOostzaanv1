@@ -1,0 +1,37 @@
+.standard-page {
+
+  &__organization {
+    display: flex;
+    justify-content: space-between;
+
+    @include breakpoint(xs) {
+      flex-direction: column;
+    }
+
+    li {
+      padding: 15px 0;
+      border-bottom: solid 1px $fountain-blue;
+
+      span {
+        font-size: 14px;
+        line-height: 24px;
+        color: $base-font-color;
+      }
+    }
+  }
+
+  .members__container {
+    strong {
+      color: $base-font-color;
+    }
+    @include breakpoint(xs) {
+      margin-bottom: 60px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+
+}

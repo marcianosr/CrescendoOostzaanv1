@@ -1,0 +1,23 @@
+.hidden-xs {
+  @include breakpoint(xs) {
+    display: none;
+  }
+}
+
+.hidden-sm {
+  @include breakpoint(sm) {
+    display: none;
+  }
+}
+
+.hidden-md {
+  @include breakpoint(md) {
+    display: none;
+  }
+}
+
+
+.ui-montserrat-normal {
+  font-weight: 400;
+  font-family: "Montserrat";
+}

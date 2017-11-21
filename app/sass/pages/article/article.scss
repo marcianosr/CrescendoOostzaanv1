@@ -1,0 +1,32 @@
+.article-page {
+    .article-image {
+        max-width: 350px;
+        margin-top: 30px;
+    }
+
+    .back-button {
+      font-size: 12px;
+      display: block;
+      margin-bottom: 10px;
+
+      .icon-chevron {
+        transform: rotate(180deg);
+        display: inline-block;
+        font-size: 18px;
+        vertical-align: text-bottom;
+        margin-right: 8px;
+      }
+    }
+
+
+		.table {
+			margin: 15px 0;
+			display: flex;
+			justify-content: center;
+
+			li {
+				padding: 10px 0;
+				border-bottom: 1px solid $fountain-blue;
+			}
+		}
+}

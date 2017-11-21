@@ -1,0 +1,19 @@
+{
+  "name": "thomaston",
+  "description": "\"thomas and tn consultancy\"",
+  "main": "app/app.js",
+  "authors": [
+    "Marciano Schildmeijer"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

@@ -1,0 +1,52 @@
+.events__container {
+  article { width: 100%; }
+  section { margin-bottom: 60px; }
+
+}
+
+.events {
+
+
+    &__block {
+      background-color: $fountain-blue;
+      margin-bottom: 1px;
+      display: flex;
+      flex-flow: row wrap;
+
+      @include breakpoint(xs) {
+        flex-direction: column;
+
+        time {
+          font-size: 25px;
+        }
+      }
+
+    }
+
+    &__item {
+        color: white;
+        padding: 20px;
+        border-right: 1px solid white;
+        text-transform: uppercase;
+        font-size: 24px;
+        flex-grow: 1;
+        text-align: center;
+
+        @include breakpoint(xs) {
+          padding-bottom: 10px;
+        }
+
+        &--repetities {
+          @include breakpoint(sm) {
+            width: 50%;
+          }
+        }
+
+    }
+
+    &__item + &__item {
+      @include breakpoint(xs) {
+        padding-top: 0px;
+      }
+    }
+}

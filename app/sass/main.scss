@@ -1,0 +1,26 @@
+
+// Libraries
+@import "normalize";
+@import "bourbon";
+// @import "slick-carousel";
+
+// React-Slick Library styles need to be loaded explicitly with the .scss extension.
+@import "slick-theme.scss";
+@import "slick.scss";
+
+
+// Custom
+@import "mixins";
+@import "variables";
+@import "global";
+@import "util";
+@import "fonts";
+
+@import "components/**";
+@import "pages/**";
+
+
+body {
+  // @include background($fountain-blue);
+  font-family: 'Montserrat', sans-serif;
+}

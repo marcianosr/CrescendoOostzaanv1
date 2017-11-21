@@ -1,0 +1,22 @@
+.adverteerders__container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+
+  hr {
+    border-top-width: 1px;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+}
+
+.adverteerders__item {
+  width: 300px;
+  align-items: center;
+  margin-bottom: 30px;
+
+  img {
+    width: 100%;
+  }
+}

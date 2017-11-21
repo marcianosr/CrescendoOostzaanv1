@@ -1,0 +1,22 @@
+.home-page {
+
+  &__about {
+    display: flex;
+
+    .blue-border-btn {
+      margin-top: 25px;
+      display: inline-block;
+
+      @include breakpoint(xs) {
+        width: 100%;
+        text-align: center;
+
+      }
+
+    }
+
+    @include background(white);
+
+  }
+
+}

@@ -1,0 +1,57 @@
+.standard-page {
+
+  &__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @include background(white);
+    @include clearfix();
+
+    @include breakpoint(sm) {
+      flex-flow: row;
+    }
+  }
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    margin-bottom: 15px;
+
+    @include breakpoint(xs) {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  li, span {
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  &.contact {
+    li {
+      color: $base-font-color;
+    }
+
+    ul {
+      margin-top: 30px;
+      padding-right: 40px;
+    }
+
+    .list-container {
+      display: flex;
+      flex-direction: row;
+
+      @include breakpoint(xs) {
+         flex-direction: column;
+      }
+    }
+  }
+
+}
