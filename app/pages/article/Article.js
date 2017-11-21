@@ -27,6 +27,7 @@ class Article extends React.Component {
     }
 
     render() {
+			console.log(this.props.link)
       return (
         <div>
           <div className="article-page">
@@ -41,6 +42,7 @@ class Article extends React.Component {
 
               { this.loopText() }
 
+
 							{this.props.table &&
               <ul className='table'>
 								<div>
@@ -53,6 +55,12 @@ class Article extends React.Component {
               <ul>
                 { this.loopList() }
               </ul>}
+
+							{this.props.link &&
+								<strong class='link-container'>
+									<a target='_blank' href={this.props.link}>{this.props.link}</a>
+								</strong>
+							}
 
               <img className="article-image" src={this.props.extraImages} />
 

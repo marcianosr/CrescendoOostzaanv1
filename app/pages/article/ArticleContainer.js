@@ -109,7 +109,17 @@ class ArticleContainer extends React.Component {
 						"images": [''],
 						"extraImages": ['/assets/thumbnail_DSC09965.jpg'],
 						"table": true
-					}
+					},
+					{
+						"id": 5,
+						"slug": 'vrienden-van-crescendo-live-uitverkocht',
+						"title": "Vrienden van Crescendo Live uitverkocht",
+						"body": ['Lees het artikel over de Vrienden van Crescendo Live! van het Kompas op hun website: '],
+						"extra": [''],
+						"images": ['/assets/crescendolive.JPG'],
+						"extraImages": ['/assets/crescendolive.JPG'],
+						"link": 'http://rodi.nl/widgets/1700-oostzaan/nieuws/1435473-vrienden-van-crescendo-live-uitverkochtsfeervolle-afsluiting-van-het-jubileumjaar',
+					},
         ];
 
         return posts;
@@ -128,7 +138,7 @@ class ArticleContainer extends React.Component {
       });
 			console.log(currentPost)
       if (currentPost) {
-        return <Article key={currentPost.id} images={currentPost.images} extraImages={currentPost.extraImages} title={currentPost.title} body={currentPost.body} extra={currentPost.extra} table={currentPost.table}/>
+        return <Article key={currentPost.id} images={currentPost.images} extraImages={currentPost.extraImages} title={currentPost.title} body={currentPost.body} extra={currentPost.extra} table={currentPost.table} link={currentPost.link}/>
       }
       else {
         return <NotFound />

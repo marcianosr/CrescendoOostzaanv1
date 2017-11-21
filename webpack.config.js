@@ -58,6 +58,7 @@ if (process.env.NODE_ENV === "development") {
             {
               test: /\.js$/,
               loader: 'babel-loader',
+							exclude: /node_modules/,
               query: {
                 presets: ['es2015', 'react']
               }
@@ -89,6 +90,7 @@ if (process.env.NODE_ENV === "production") {
             {
               test: /\.js$/,
               loader: 'babel-loader',
+							exclude: /node_modules/,
               query: {
                 presets: ['es2015', 'react']
               }

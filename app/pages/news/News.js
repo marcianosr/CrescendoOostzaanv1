@@ -23,6 +23,14 @@ class News extends React.Component {
             <div className='news-items__container'>
 
 							<NewsItem
+								url="/artikelen/vrienden-van-crescendo-live-uitverkocht"
+								title="Vrienden van Crescendo Live uitverkocht"
+								cover='/assets/crescendolive.JPG'
+								date="21 november"
+								excerpt="Sfeervolle afsluiting van het jubileumjaar."
+							/>
+
+							<NewsItem
 								url="/artikelen/uitslag-loterij"
 								title="Uitslag trekking Jubileumloterij"
 								cover='/assets/thumbnail_DSC09965.jpg'
