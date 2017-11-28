@@ -120,6 +120,15 @@ class ArticleContainer extends React.Component {
 						"extraImages": ['/assets/crescendolive.JPG'],
 						"link": 'http://rodi.nl/widgets/1700-oostzaan/nieuws/1435473-vrienden-van-crescendo-live-uitverkochtsfeervolle-afsluiting-van-het-jubileumjaar',
 					},
+					{
+						"id": 6,
+						"slug": 'nieuwjaarsconcert-2018',
+						"title": "Nieuwjaarsconcert 2018",
+						"body": ['Nieuwjaarsconcert 2018 met Tavenu Oostzaan, Concordia Oostzaan, Excelsior Oostzaan en Crescendo Oostzaan in de Kunstgreep Oostzaan.'],
+						"extra": [''],
+						"images": [''],
+						"extraImages": ['/assets/nieuwjaarsconcert2018.jpg'],
+					},
         ];
 
         return posts;

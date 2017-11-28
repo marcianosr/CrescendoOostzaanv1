@@ -23,6 +23,13 @@ class News extends React.Component {
             <div className='news-items__container'>
 
 							<NewsItem
+								url="/artikelen/nieuwjaarsconcert-2018"
+								title="Nieuwjaarsconcert 2018"
+								cover='/assets/nieuwjaarsconcert2018.jpg'
+								date="28 november"
+								excerpt="Nieuwjaarsconcert 2018 met Tavenu Oostzaan, Concordia Oostzaan, Excelsior Oostzaan en Crescendo Oostzaan in de Kunstgreep Oostzaan." />
+
+							<NewsItem
 								url="/artikelen/vrienden-van-crescendo-live-uitverkocht"
 								title="Vrienden van Crescendo Live uitverkocht"
 								cover='/assets/crescendolive.JPG'
@@ -57,6 +64,7 @@ class News extends React.Component {
                   cover='/assets/Sabri, Nawras, Nizar en Modar.png'
                   date="1 mei"
                   excerpt="Een multiculturele avond vol muziek, zang en dans uit diverse culturen." />
+
             </div>
         </section>
 
