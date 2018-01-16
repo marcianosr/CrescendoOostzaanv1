@@ -1,9 +1,26 @@
-Project Crescendo Oostzaan.
+# Project setup & development
+## Includes React, ES6, Bootstrap Sass and Bourbon.
 
-First ever project created with react. Ready for future improvement. Important points to work on:
+- run `npm install` & `bower install`
+- run `gulp serve` for a development server
+- Profit
 
-- Rewrite front-end setup entirely in webpack 2 and ditch gulp + browsersync
-- ATM there is no Server Side Rendering and bad SEO, because the .htaccess file is redirecting every server path to the index.html file which loads the client React App.
-  Move to a NodeJS server to fully support Server Side Rendering.
-- Implement WordPress REST API.
-- Check if GrahphQL can be used.
+# Production
+- Coming soon
+
+# Used dependency packages
+- Bootstrap Sass
+- Bourbon
+- React
+- React-DOM
+
+# To do for improvement:
+- Sourcemaps
+- Clean files
+- Uglify
+- Loading fonts
+- Production build
+- Unit tests
+
+
+## Marciano Schildmeijer

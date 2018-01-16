@@ -46,8 +46,7 @@ const Lessons = () => (
         <p> Opzegging van het lidmaatschap dient schriftelijk of per mail te worden gedaan aan het bestuur. </p>
 
         <h2> Scholenproject </h2>
-        <p> In navolging van het grote succes van ons scholenproject op basisschool De Korenaar te Oostzaan zal ook in 2017 een project worden georganiseerd:
-        Onder leiding van een docent van onze vereniging leren kinderen van groep 5-6 samen spelen op een muziekinstrument uit het orkest. Een fijne manier om zo kinderen kennis te laten maken met muziek en het bespelen van een instrument. </p>
+        <p>Regelmatig organiseren we samen met en op basisschool De Korenaar te Oostzaan een scholenproject. Onder leiding van onze dirigent of docenten van onze vereniging leren kinderen van de bovenbouwgroepen samen spelen op een muziekinstrument uit het orkest. Een fijne manier om zo kinderen kennis te laten maken met muziek en het bespelen van een instrument.</p>
     </article>
 
     <Sidebar type="list" title={"Docenten"} text={content} />
