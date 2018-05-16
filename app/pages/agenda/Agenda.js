@@ -157,7 +157,7 @@ const Agenda = () => (
             <li className="events__item">Vinkeveen</li>
           </ul>
           <ul className="events__block">
-            <li className="events__item"><time>28/29/30? mei</time></li>
+            <li className="events__item"><time>6 juni</time></li>
             <li className="events__item">Avondvierdaagse Amsterdam Noord</li>
             <li className="events__item">Amsterdam-Noord</li>
           </ul>

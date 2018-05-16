@@ -129,6 +129,15 @@ class ArticleContainer extends React.Component {
 						"images": [''],
 						"extraImages": ['/assets/nieuwjaarsconcert2018.jpg'],
 					},
+          {
+            "id": 7,
+            "slug": 'klank-in-koper',
+            "title": "Klank in koper",
+            "body": ["Gezamelijk concert in samenwerking met Brassband Concordia te Vinkeveen."],
+            "extra": [''],
+            "images": [''],
+            "extraImages": ['/assets/poster-7-april.jpg'],
+          },
         ];
 
         return posts;

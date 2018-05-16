@@ -15,6 +15,8 @@ class Agenda extends React.Component {
 
   getAgendaItems() {
     // get agenda items...
+
+
   }
 
   render() {
@@ -23,25 +25,25 @@ class Agenda extends React.Component {
           <div className="agenda--toggle hidden-sm hidden-md">{this.props.text} agenda</div>
           <h2 className="hidden-xs hidden-sm">Agenda 2017/2018</h2>
           <div className="agenda__info">
-            <strong>Vrienden van Crescendo live</strong>
-            <span>4 november 2017</span>
-            <span>De Kunstgreep Oostzaan</span>
+            <strong>Jantje Beton</strong>
+            <span>5 t/m 10 maart</span>
           </div>
           <div className="agenda__info">
-            <strong>Kerstnachtdienst</strong>
-            <span>24 december 2017</span>
-            <span>22:15</span>
-            <span>Grote Kerk Oostzaan</span>
+            <strong>Paasdienst</strong>
+            <span>1 april</span>
+            <span>De Grote Kerk</span>
           </div>
           <div className="agenda__info">
-            <strong>Nieuwjaarsconcert i.s.m. Excelsior, Concordia, Tavenu in het Atrium</strong>
-            <span>6 januari 2018</span>
-            <span>De Kunstgreep</span>
+            <strong>Gezamenlijk concert met Brassband Concordia Vinkeveen</strong>
+            <span>7 april</span>
+            <span>Vinkeveen</span>
           </div>
           <div className="agenda__info">
-            <strong>5 t/m 10 maart 2018</strong>
-            <span>Jantje Beton</span>
+            <strong>Avondvierdaagse Amsterdam Noord</strong>
+            <span>6 juni</span>
+            <span>Amsterdam-Noord</span>
           </div>
+
           <Link to="/agenda">Meer agendapunten</Link>
           {/* <a href="/ageda">Meer agendapunten >  /* <span className="icon-chevron"></span></a> */}
         </div>
