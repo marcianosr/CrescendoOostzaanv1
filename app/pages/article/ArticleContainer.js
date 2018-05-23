@@ -138,6 +138,15 @@ class ArticleContainer extends React.Component {
             "images": [''],
             "extraImages": ['/assets/poster-7-april.jpg'],
           },
+          {
+            "id": 8,
+            "slug": 'afscheid-ton-verwer',
+            "title": "Afscheid Ton Verwer",
+            "body": ["Op 28 april jl. is Ton Verwer onverwacht overleden. Verschrikkelijk verdrietig nieuws, onwerkelijk. Op 11 mei jl. hebben we afscheid genomen van Ton door het spelen van Glenn beats the battle of Jericho, zijn muziek, tijdens de uitvaartdienst. Ton was voor ons: muzikant, vriend, saxofonist, goed in organiseren, af en toe mopperig, uitgesproken en aanspreekbaar, aanwezig, altijd bereid om zich in te zetten, een kei in het binnen halen van sponsoren, betrokken en een verenigingsman in hart en nieren. Wat zullen we hem missen.", "Onze gedachten zijn bij Tiny, Joyce, Johan, Yvette, Ramon, Ank, kleinkinderen en overige familie en wij wensen hen veel sterkte."],
+            "extra": [''],
+            "images": [''],
+            "extraImages": ['/assets/tonverwer.jpg'],
+          },
         ];
 
         return posts;
@@ -154,7 +163,7 @@ class ArticleContainer extends React.Component {
             currentPost = post;
           }
       });
-			console.log(currentPost)
+		
       if (currentPost) {
         return <Article key={currentPost.id} images={currentPost.images} extraImages={currentPost.extraImages} title={currentPost.title} body={currentPost.body} extra={currentPost.extra} table={currentPost.table} link={currentPost.link}/>
       }

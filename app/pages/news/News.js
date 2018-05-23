@@ -9,11 +9,6 @@ import NewsItem from './NewsItem';
 class News extends React.Component {
     constructor() {
       super();
-      console.log('het news')
-    }
-
-    getNewsItems() {
-
     }
 
     render() {
@@ -21,6 +16,13 @@ class News extends React.Component {
         <section className='content'>
             <h1> Laatste Nieuws </h1>
             <div className='news-items__container'>
+
+              <NewsItem
+                url="/artikelen/afscheid-ton-verwer"
+                title="Afscheid Ton Verwer"
+                cover='/assets/tonverwer.jpg'
+                date="23 mei 2018"
+                excerpt="Afscheid Ton Verwer." />
 
               <NewsItem
                 url="/artikelen/klank-in-koper"
